@@ -1,0 +1,51 @@
+
+*,*::after,*::before{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    color: #1d2b3a;
+}
+
+body{
+    background: rgb(241, 239, 239);
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5rem;
+    margin: 1rem auto;
+}
+
+.container .content{
+    flex: 3;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1em;
+}
+
+/* Offer Form Section */
+
+#MakeApp{
+    width: inherit;
+    height: 100svh;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 43, 58, .2);
+    padding: 1em 1.5em;
+    background: white;
+}
+
+#MakeApp h4{
+    color: rgba(29, 43, 58, .75);
+}
+
+
+
+
+

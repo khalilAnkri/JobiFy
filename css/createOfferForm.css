@@ -1,0 +1,70 @@
+/* .container .content #MakeApp form */
+
+#MakeApp{
+    height: 100%;
+}
+
+#MakeApp form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2em;
+}
+
+#MakeApp form .cut1{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    width: inherit;
+}
+
+#MakeApp form .cut2{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    width: inherit;
+}
+
+#MakeApp label {
+    display: block;
+    font-weight: bold;
+}
+
+#MakeApp input[type="text"],
+#MakeApp input[type="email"],
+#MakeApp textarea,
+#MakeApp select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#MakeApp textarea {
+    height: 80px;
+}
+
+#MakeApp select {
+    height: 50px;
+    font-size: 16px;
+}
+
+#MakeApp select option{
+    padding: .5em 1em;
+}
+
+#MakeApp input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#MakeApp input[type="submit"]:hover {
+    background-color: #45a049;
+}

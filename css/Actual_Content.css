@@ -1,0 +1,233 @@
+.container .content #Actual_Content{
+    width: inherit;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 43, 58, .2);
+    flex: 3;
+    padding: 1em;
+    background: white;
+}
+
+.container .content #Actual_Content #jobOffers{
+    width: inherit;
+    height: 100%;
+}
+
+.container .content #Actual_Content #jobOffers #jobList{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    row-gap: 1rem;
+    column-gap: 1rem;   
+    padding: 1.5em 1em;
+    border-top: 1px solid rgba(29, 43, 58, .2);
+}
+
+.container .content #Actual_Content #jobList div{
+    flex: 1;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 43, 58, .2);
+}
+
+.container .content #Actual_Content #jobOffers h4, #jobDetails h4{
+    color: rgba(29, 43, 58, .75);
+}
+
+
+/* Offer Displayed Card  */
+ #jobOffers #jobList div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#jobOffers #jobList div .offer_header {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+#jobOffers #jobList div .offer_header .top-right-main-header{
+    flex: 3;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+#jobOffers #jobList div .offer_header .top-right-main-header .offerIcon {
+    position: relative;
+    max-width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#jobOffers #jobList div .offer_header .top-right-main-header .offerIcon img {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+#jobOffers #jobList div .offer_header .top-right-main-header .offer_head_text p{
+    font-weight: 300;
+}
+
+
+#jobOffers #jobList div .offer_header .top-right-main-header .offer_head_text h2:hover{
+    cursor: pointer;
+    color: rgba(29, 43, 58, .9);
+}
+
+
+#jobOffers #jobList div .offer_header .favoritize{
+    max-width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+    cursor: pointer;
+    color: rgba(29, 43, 58, 1);
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(29, 43, 58, .05);
+    transition: .1s;
+}
+
+#jobOffers #jobList div .offer_header .favoritize:hover{
+    color: white;
+    background: rgba(29, 43, 58, 1);
+}
+
+#jobOffers #jobList div .offer_description{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#jobOffers #jobList div .skills{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#jobOffers #jobList div .skills .skill{
+    background: rgba(29, 43, 58, .05);
+    padding: 1.5em 2em;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#jobOffers #jobList div .location{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Offer detailed Card */
+#jobDetails #jobContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    padding: 2em;
+    margin: 1em;
+    border: 1px solid rgba(29, 43, 58, .2);
+    border-radius: 8px;
+  }
+  
+  #jobDetails #jobContent .jobTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #jobDetails #jobContent .jobDescription{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #jobDetails #jobContent .dskills{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1em;
+  }
+
+  #jobDetails #jobContent .dskills .dskill{
+    background: rgba(29, 43, 58, .05);
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #jobDetails #jobContent .jobInfo{
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  #jobDetails #jobContent .contact-us {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 10px;
+  }
+
+  #jobDetails #jobContent .contact-us .jobEmail, .jobContact{
+    background-color: rgba(29, 43, 58, .9);
+    color: white;
+    padding: .5em;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #jobDetails #jobContent .contact-us .jobEmail a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #jobDetails #jobContent .contact-us .or{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #jobDetails #jobContent .contact-us .jobEmail:hover, .jobContact:hover{
+    background-color: rgba(29, 43, 58, 1);
+    cursor: pointer;
+  }
+
+  /* back to jobList button */
+  #jobDetails button{
+    cursor: pointer;
+    margin: 14px;
+    padding: .75em 1.5em;
+    background: #4CAF50;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #jobDetails button:hover{
+    background-color: #45a049;
+  }

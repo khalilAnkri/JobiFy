@@ -1,0 +1,20 @@
+
+* {
+    background-color: white;
+    color: #162938;
+    font-size: large;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    gap: 16rem;
+}
+
+.suc {
+    width: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}

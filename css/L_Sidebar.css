@@ -1,0 +1,297 @@
+.container .L_Sidebar{
+    width: 300px;
+    height: 130svh;
+    border-radius: 5px;
+    border: 1px solid rgba(29, 43, 58, .2);
+}
+
+.container .L_Sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: white;
+}
+
+.container .L_Sidebar .section{
+    flex: 1;
+} 
+
+.container .L_Sidebar .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    padding: 0 1em;
+    margin-top: 1.5em;
+}
+
+.container .L_Sidebar .filter button{
+    width: 100%;
+    padding: .6em 1.2em;
+    border-radius: 5px;
+    color: rgba(29, 43, 58, .75);
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    border: 1.5px solid rgba(29, 43, 58);
+    background: rgba(29, 43, 58, .9);
+}
+
+.container .L_Sidebar .filter button:hover{
+    background: rgba(29, 43, 58);
+}
+
+.container .L_Sidebar .items, .container .L_Sidebar .shared, .container .L_Sidebar .history, .container .L_Sidebar .settings{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: inherit;
+    padding: 0 1.5em;
+}
+
+.container .L_Sidebar .items .item, .container .L_Sidebar .shared .item, .container .L_Sidebar .history .item, 
+.container .L_Sidebar .settings .item{
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+    color: #1d2b3a;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 2.5px;
+}
+
+.container .L_Sidebar .items .item:hover, .container .L_Sidebar .shared .item:hover, .container .L_Sidebar .history .item:hover
+, .container .L_Sidebar .settings .item:hover{
+    background: rgba(29, 43, 58, .05);
+}
+
+.container .L_Sidebar .items .item:active, .container .L_Sidebar .shared .item:active, .container .L_Sidebar .history .item:active
+, .container .L_Sidebar .settings .item:active{
+    background: rgba(29, 43, 58, .1);
+}
+
+.container .L_Sidebar .items .item .num, .container .L_Sidebar .shared .item .num, .container .L_Sidebar .history .item .num{
+    position: absolute;
+    font-size: 12px;
+    color: rgba(29, 43, 58, .5);
+    left: 90%;
+    background: rgba(29, 43, 58, .1);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.container .L_Sidebar .items .item .fa-layer-group, .fa-bell, .fa-calendar , .container .L_Sidebar .shared .fa-folder, .fa-link, 
+.container .L_Sidebar .history .fa-wand-magic-sparkles , .fa-heart, .fa-envelope, .container .L_Sidebar .settings .fa-circle-info, .fa-gear{
+    padding-right: .7em;
+    font-size: 15px;
+}
+
+.container .L_Sidebar .line{
+    width: 100%;
+    padding: 0 1em;
+    height: 1px;
+    margin-top: -10px;
+}
+
+
+.container .L_Sidebar .line div{
+    background: rgba(29, 43, 58, .06);
+    width: inherit;
+    height: inherit;
+}
+
+.container .L_Sidebar .shared h4, .history h4{
+    color: rgba(29, 43, 58, .5);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 1em 0;
+    width: 100%;
+    position: relative;
+}
+
+.container .L_Sidebar .shared h4 .fa-plus{
+    position: absolute;
+    left: 95%;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(29, 43, 58, .5);
+    text-align: end;
+    cursor: pointer;
+}
+
+.container .L_Sidebar .shared h4 .fa-plus:hover{
+    background: rgba(29, 43, 58, .05);
+}
+
+.container .L_Sidebar .settings .item{
+    color: rgba(29, 43, 58, .5);
+}
+
+.container .L_Sidebar .settings .item .fa-circle-info, .fa-gear{
+    color: rgba(29, 43, 58, .5);
+}
+
+.jobify{
+    width: 100%;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.jobify h4{
+    padding: 13px 26px;
+    font-weight: 600;
+    color: white;
+    /* background: rgba(0,0,0,.25); */
+    background: rgba(29, 43, 58);
+    border-radius: inherit;
+}
+
+.logo h2 .fa-sitemap{
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.pf_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: inherit;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-top: 1px solid rgba(29, 43, 58, .1);
+    /* background: rgba(0,0,0,.25); */
+    /* background: rgba(29, 43, 58); */
+}
+
+.pf_container h3{
+    color: rgba(29, 43, 58);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 13px 0;
+    padding-left: 3px;
+}
+
+.pf_container h3 span{
+    color: rgba(29, 43, 58, .5);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.pfp{
+    position: relative;
+    margin: 13px 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    border: 1px solid rgba(29, 43, 58, .2);
+    background: white;
+    transition: .2s ease-in-out;
+}
+
+.pfp img{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.pf_container .fa-up-right-from-square{
+    color: #1d2b3a80;
+    font-size: 13px;
+    margin-left: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pf_container .fa-up-right-from-square:hover{
+    background: rgba(29, 43, 58, .05);
+}
+
+/* overlapping::Favorites ---------------------------------------------------- */
+
+#FavoritesOverlap{
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: -40%;
+    z-index: 20;
+    background: white;
+    border-bottom-left-radius: 5px;
+    transition: .5s ease-in-out;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
+}
+
+#FavoritesOverlap h3{
+    padding: 1em;
+}
+
+#FavoritesOverlap span .fa-xmark{
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(29, 43, 58, .5);
+    cursor: pointer;
+}
+
+#FavoritesOverlap span .fa-xmark:hover{
+    background: rgba(29, 43, 58, .05);
+}
+
+#FavoritesOverlap span .fa-xmark:active{
+    background: rgba(29, 43, 58, .1);
+}
+
+/* overlapping::inbox ---------------------------------------------------- */
+
+#inbox{
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: -40%;
+    z-index: 20;
+    background: white;
+    border-bottom-left-radius: 5px;
+    transition: .5s ease-in-out;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
+}
+
+#inbox h3{
+    padding: 1em;
+}
+
+#inbox span .fa-xmark{
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(29, 43, 58, .5);
+    cursor: pointer;
+}
+
+#inbox span .fa-xmark:hover{
+    background: rgba(29, 43, 58, .05);
+}
+
+#inbox span .fa-xmark:active{
+    background: rgba(29, 43, 58, .1);
+}
